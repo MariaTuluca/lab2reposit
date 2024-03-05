@@ -11,7 +11,7 @@ int function(int x){
 
 int main(){
 	int a=30, i=0;
-
+    printf("%d ", a);
 	while (a>0){
 		a=function(a);
 		i++;
